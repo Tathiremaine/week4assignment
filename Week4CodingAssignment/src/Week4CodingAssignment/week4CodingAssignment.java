@@ -52,8 +52,8 @@ public static double averageOfArray (int[] array)
 	for(int i : array)
 	{
 		sum += i;
-		sum % array.length;
-		return sum.toDouble;
+		//sum % array.length;
+		return (double) sum / array.length;
 	}
 }
 }
