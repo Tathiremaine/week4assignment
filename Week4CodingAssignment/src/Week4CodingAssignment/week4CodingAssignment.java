@@ -11,6 +11,7 @@ public class week4CodingAssignment {
 		
 		System.out.println(ninjaTools.firstLastResult(ages));
 		System.out.println(ninjaTools.firstLastResult(ages2));
+		System.out.println(ninjaTools.averageOfArray(ages));
 	}
 	//I know I want int endElement = array[array.length - 1];
 	// and int result = array[0] - endElement;
@@ -36,4 +37,23 @@ public static int firstLastResult(int [] array)
 		
 		return result;
 	}
+
+//Using a loop to iterate through the array and calculate the average age.
+//first we need to recall what an average is and how it''s found
+//according to the Oxford defination Average is a number expressing the
+//central value in a set of numbers. We find the Average by adding all the
+//values together and dividing that sum by the quantity of number, or in this
+//case, ints. Since we divide and our original elements are in integers we will
+//need to convert the average to a double.
+
+public static double averageOfArray (int[] array)
+{
+	int sum = 0;
+	for(int i : array)
+	{
+		sum += i;
+		sum % array.length;
+		return sum.toDouble;
+	}
+}
 }
