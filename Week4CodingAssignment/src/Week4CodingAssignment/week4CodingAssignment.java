@@ -12,6 +12,8 @@ public class week4CodingAssignment {
 		System.out.println(ninjaTools.firstLastResult(ages));
 		System.out.println(ninjaTools.firstLastResult(ages2));
 		System.out.println(ninjaTools.averageOfArray(ages));
+
+System.out.println(ninjaTools.averageOfArray(ages2));
 	}
 	//I know I want int endElement = array[array.length - 1];
 	// and int result = array[0] - endElement;
