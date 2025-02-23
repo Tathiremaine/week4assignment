@@ -8,7 +8,7 @@ public class week4CodingAssignment {
 	{
 		int[] ages = {3, 9, 23, 64, 2, 8, 28, 93};
 		int[] ages2 = {35, 32, 8, 55, 31, 13, 21, 27, 6};
-		
+		String[] names = {"Sam", "Tommy", "Tim", "Sally", "Buck", "Bob"};
 		System.out.println(ninjaTools.firstLastResult(ages));
 		System.out.println(ninjaTools.firstLastResult(ages2));
 		System.out.println(ninjaTools.averageOfArray(ages));
@@ -57,5 +57,9 @@ public static double averageOfArray (int[] array)
 		//sum % array.length;
 		return (double) sum / array.length;
 	}
+}
+public static String namesCharTotal(String str)
+{
+
 }
 }
